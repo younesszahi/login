@@ -46,3 +46,28 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
+.credits-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff9900;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #232f3e;
+    font-size: 14px;
+}
+
+.credits-button img.credits-photo {
+    width: 4s00px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin-right: 10px;
+}
+
+.credits-button span {
+    color: #232f3e;
+    font-size: 16px; /* Optional: Adjust text size */
+}
